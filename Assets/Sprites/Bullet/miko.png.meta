@@ -1,0 +1,2773 @@
+fileFormatVersion: 2
+guid: ff8d6d34775aea6418b737e51d754dff
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle_Back0
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 428
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff002b32bf80bb4188ebbd121380324
+      internalID: 1267124265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Back1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 428
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04b7ebe25a43f84897cf70b0a9defb5
+      internalID: 1601025037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Back2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 428
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acda4538d8c095441a7111bfcfecd270
+      internalID: 2113148358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Front3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 428
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3aed444e5e022e4ab7099693198a43c
+      internalID: 16282942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Front2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 428
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73906ca2fc4b65741b0215e56b9e36f7
+      internalID: 1387829367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Front1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 428
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401cc723db63a8245bd091688f740a3e
+      internalID: 1375602232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 467
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9344ac6365dc7d94dbd00eb30e3d4e8e
+      internalID: -1368721598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 467
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674bec1bbb998934a8d212440451e58d
+      internalID: 1910759375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miko_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 467
+        width: 1
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839f097ab1661fe4d84a8a9509120476
+      internalID: -1161449358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 467
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6275bb6a787576a4b9fb17a55b864d87
+      internalID: -599865533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 467
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b4039bcb4fe794491d1dda102687b6
+      internalID: -977161361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 467
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d4a3165deca234a937d951fbfeb0f3
+      internalID: -1885315153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 467
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9008dc723459484ca8beed16e4c21c6
+      internalID: 1812706052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 467
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928b2d2a3e64e844aad20990e36c7b2c
+      internalID: 1332260474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c379e63ed4517464ea809eb495301de6
+      internalID: 634710494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccb360b2785e714681f351b1ec68be9
+      internalID: -751192091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904a53bb84a48d74b92608a119ef7798
+      internalID: 1273428235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1f2930d72ff3045a2afc0ab2995472
+      internalID: -1390647361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed012c5dcc6cb7479efd0add2d63b73
+      internalID: 814827214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9557dd756b65aa04f8179354cc6f5540
+      internalID: 158662388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94adffb184b773e4099cf80d2ce947ad
+      internalID: -2061017097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet7
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215245171fa2c9c4cb675f3d8276d962
+      internalID: 726413743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet8
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b521a2dcad91e478cb088612e8988e
+      internalID: 642858030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7759b801f1175304c9bac70774eb9b9e
+      internalID: 1614052735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7e8910ded742f4a99e9f8479cd028c
+      internalID: -1125719098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f280ff35bd5dbc449cd23484459862f
+      internalID: -1260249039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet12
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9e7f9f63fd4bc48a31b983787fa30b
+      internalID: 1879852800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet13
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27e4aa17c073034f8f451a87f614bdb
+      internalID: -1221661919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalBullet14
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 358
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d440fb8a64825254dad859c6fb4af780
+      internalID: 837244489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBullet0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 323
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b445f3a831417f34388ae41a72c819c5
+      internalID: -1558425916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBullet1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 323
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff83e3e85c6bab0409566452673a7361
+      internalID: -879992672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBullet2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 323
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db97336636d19ba4ba52a888fcd158b9
+      internalID: -377353334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBullet3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 323
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28953e5e822636144abf067f8ed24de4
+      internalID: 463507774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBullet4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 323
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23effd8ddb84994083ead0b7d3afbe9
+      internalID: 1747219043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBullet5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 323
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb01aef1118bd44a8a003ae3d956af6
+      internalID: 1932552079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBullet6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 323
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2729f10a460e0d45b4e9aa50e105f2c
+      internalID: 103250570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubBullet7
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 323
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152181612f4818640a6d70069ab9b0c5
+      internalID: -892274802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 385
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1a344c98a34f3499e3d1d72632179e
+      internalID: 2129878999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 385
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7d1ce08e83acc4cbfb5f88deb41153
+      internalID: -591838869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 385
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc1edf54800b32428bd1c37f6ffd24a
+      internalID: -766109094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 385
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da14d96d994b50e4eb2a1995e157ce94
+      internalID: -1081218744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 385
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091b5db9f226a104c880d5a22069a0e8
+      internalID: 984918257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 385
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4a6ffc1b2251b41b7d0582692ccb79
+      internalID: -677962104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHitEffect0
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 317
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e64883748b4e843b05776abf7ecd79
+      internalID: -1246943514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHitEffect1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 317
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f47bb2f69b35e46ab605719fa2e09a
+      internalID: -1110527142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHitEffect2
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 317
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8f6cdd18ed2444e8df4cc4045bac11
+      internalID: -143695268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHitEffect3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 317
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95832274976a4e24a9bce4ffe2e1388c
+      internalID: -1402330896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHitEffect6
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 317
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038ba60c6750d5f46824f80d9570cd60
+      internalID: -1372863631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHitEffect7
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 317
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be2ce58d9e84a74cbaed86a35400e1c
+      internalID: -788690602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHitEffect
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 317
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56f733e9b5869546a4af01c1319b9bc
+      internalID: -1420742972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miko_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 317
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc939967cdd45f54dae9fc98a7beaf19
+      internalID: -687727949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 282
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce94d084571fd664b9054622b767924d
+      internalID: -828545427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 282
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d904c9d68828349add376efba99c7c
+      internalID: -1651556546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 282
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a25a94aeeb45a479dea6897bffb902
+      internalID: -1764097925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 282
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161532b3e3ca8564aa823b79538ceb13
+      internalID: -344169524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 282
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21773f690b034ba489d3bb7a6a37f248
+      internalID: 1434017828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 282
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef922aefbe36f9541ba7f72029fb93f6
+      internalID: 154446122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 282
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45a99af931b5bf4798e332a2c82b8fa
+      internalID: -561565444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubWeapon7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 282
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1ac03105b8bb54aa4d2e84c473ebdf
+      internalID: 1557403050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSpecialWeapon0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 241
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327d814c6d007624fab51c6c790c80e5
+      internalID: 687165021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSpecialWeapon1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 241
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ff5701d5b65434dadb34e4675fa271
+      internalID: -1751691918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSpecialWeapon2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 241
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325ea094275948641b9e08d8056062ed
+      internalID: 513950160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSpecialWeapon3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 241
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c2cee541d8c6e4d89f43c3a53d8bf3
+      internalID: -591032325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSpecialWeapon4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 241
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846b5c4a01ae2144f83b286a4b60c5fb
+      internalID: -1202005281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSpecialWeapon5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 241
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58f1f3f9bdfbd243b39e87edde23cd4
+      internalID: -214606233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSpecialWeapon6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 241
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a318d70cacd7845bb51c0ed8fa4da6
+      internalID: -483900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSpecialWeapon7
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 241
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8789415775528c44b7ddb13684b1351
+      internalID: 1155709593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSpecialWeapon8
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 241
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d142d434a3bb09a4c86bb08ebe90d337
+      internalID: 1537065604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSpecialWeapon9
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 241
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f17170ab2d3da459fe53e6ddd5b86f
+      internalID: 1039942061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelOne0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8229ed1e49d937149ad35894826e628e
+      internalID: 1142790185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelOne1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd921e6a04f330e49833490c72d6c482
+      internalID: -1364449322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelOne2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94721d6b031640f45b27b70a06b28ce9
+      internalID: 717072004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelOneDie0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a029b40f56966734a81184df85ba2bc8
+      internalID: 597960229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelOneDie2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2556d2db68eaad4da78d313396ad29f
+      internalID: 1078967992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelOneDie3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc125a4cf9a9e564388879ee7f9d9c6f
+      internalID: -1720986781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelOneDie4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e11fa6cf62d0842b5682b8985a6bc0
+      internalID: 1992715742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelOneDie5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a0714b33b83d945b1cbb429f22f5aa
+      internalID: 308098513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelOneDie6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfc4fb746a3ab74c8df5b7ae7d30c29
+      internalID: -1913181872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelOneDie7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbb5fa8a39e2e544a9989f87f8cbc7d
+      internalID: 325329667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelTwoDie0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 170
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1123cfd67f799a548b4d34feaebe7961
+      internalID: -1200127560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelTwoDie1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 170
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a11b28026c531c4281a174415cf561a
+      internalID: 1282186672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelTwoDie2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 170
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c699ef8ebc80cb45b9d70612525df07
+      internalID: -216963946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelTwoDie3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 170
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa887d4733cb90f46a70ce559a2a6cb9
+      internalID: 1783016470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelTwoDie4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 170
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6e69950c7228f478d97bbf5a6ea265
+      internalID: 1340368646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelTwoDie5
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 170
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51da12c54a9313d45b4563736741f54e
+      internalID: -610165054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelTwo0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 170
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c324379a4321c48a052fe50fe7524d
+      internalID: -1071500485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelTwo2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 170
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19169436f5798a4187e365500c6a017
+      internalID: -961265632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelTwo1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 170
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c83a88caef90941b9edb821e1bd094
+      internalID: 1393495244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelTwoDie6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 170
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8e08163ed05bd4694e6cfc17fab28e
+      internalID: -787748536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelTwoDie7
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 170
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1442c520d2f334c4ba9ab6af75f8b1f7
+      internalID: -832028008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelThree0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 127
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d771c1f4e8a2c4097e3c8c5b335dda
+      internalID: 522203947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelThree1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 127
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f42d643c93dd7c48af1649ec87c16aa
+      internalID: -734629659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelThree2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 127
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a862aa9d002c8b84da5db8c18221110e
+      internalID: -1343496733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelThree3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 127
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18796fc371fe0e4487d5322ae1541a5
+      internalID: -2082386382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelThree4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 127
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053aab2d3da48374dade5249d9b51375
+      internalID: 1310913759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelThree5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 127
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ad29f861f973d4bb23c23016c85c28
+      internalID: -606951212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelThree6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 127
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268ec7cc16b5c424fa92cd0d0c349695
+      internalID: 1469439728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelThree7
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 127
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b962921072cd37469d68ec523533799
+      internalID: -48249960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFour0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 77
+        width: 69
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5b84205c869114988e1b66661e838a
+      internalID: 1542926899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFour1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 77
+        width: 69
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147333528ff1e504abf90a02717f2b8b
+      internalID: -1704695912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFour2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 77
+        width: 69
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8d0f47c2d423a40a7bf7eb0b949444
+      internalID: -606546436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourAttack0
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 76
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783f6acbf38a40c4e8e4ea2e6e65f388
+      internalID: 2002741556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourAttack1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 76
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ec302072aa3c94987f4ea4687240fb
+      internalID: -1802754220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourAttack2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 20
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e71515d7938d443aa90075b667b035
+      internalID: 560772531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourAttack3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 20
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39e8ec09c65c1943a6e5ec9d058ce19
+      internalID: -810902832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourDie0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 22
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508046aa85777de46810aff772a38150
+      internalID: 1427126336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourDie1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 22
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5b8460996b71141a98e5deda7e99e6
+      internalID: 138662080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourDie2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 22
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e712b8f6be80b064eb6a0614d7ec1c49
+      internalID: -1368970794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourDie3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 22
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d23199646cb084a967063c8f215f54
+      internalID: -182470916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourDie4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 21
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb73c511df7f064d97e14649319459c
+      internalID: 953350506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourDie5
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 21
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb49a3f5f8e396d41b20fa8ba0fc224a
+      internalID: -1439282210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourDie6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 21
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654886b3240e3644eb72785b0d2041c2
+      internalID: 414478970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourAttackEffect0
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 89
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c180015f4a746ac43ac15cf4d6436572
+      internalID: 2136846818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourAttackEffect1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 89
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa466fed9308a04490d9738a174b6dd
+      internalID: 1207358561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourAttackEffect2
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 89
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a5046c8db24a241a30c4b1ccda2e6f
+      internalID: -61637991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourAttackEffect3
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 89
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf9f77eb42fd4e429ab8bf51e7f6828
+      internalID: 534292783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourAttackEffect4
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 89
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b5113b034cc064888ca6268d1b8016
+      internalID: 368626720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourAttackEffect5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 89
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa92d0821c039c42a443938b9a8c402
+      internalID: 1180115969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBulletLevelFourAttackEffect6
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 89
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6762c289ce1c0094cb688447f35e20cd
+      internalID: -293629343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hit0: 2129878999
+      Hit1: -591838869
+      Hit2: -766109094
+      Hit3: -1081218744
+      Hit4: 984918257
+      Hit5: -677962104
+      Idle_Back0: 1267124265
+      Idle_Back1: 1601025037
+      Idle_Back2: 2113148358
+      Idle_Front1: 1375602232
+      Idle_Front2: 1387829367
+      Idle_Front3: 16282942
+      NormalBullet0: 634710494
+      NormalBullet1: -751192091
+      NormalBullet10: -1125719098
+      NormalBullet11: -1260249039
+      NormalBullet12: 1879852800
+      NormalBullet13: -1221661919
+      NormalBullet14: 837244489
+      NormalBullet2: 1273428235
+      NormalBullet3: -1390647361
+      NormalBullet4: 814827214
+      NormalBullet5: 158662388
+      NormalBullet6: -2061017097
+      NormalBullet7: 726413743
+      NormalBullet8: 642858030
+      NormalBullet9: 1614052735
+      PlayerHitEffect: 921766716
+      PlayerHitEffect0: -1246943514
+      PlayerHitEffect1: -1246943514
+      PlayerHitEffect2: -1110527142
+      PlayerHitEffect3: -143695268
+      PlayerHitEffect6: -1372863631
+      PlayerHitEffect7: -788690602
+      Run0: -1368721598
+      Run1: 1910759375
+      Run2: -599865533
+      Run3: -977161361
+      Run4: -1885315153
+      Run5: 1812706052
+      Run6: 1332260474
+      SpecialBulletLevelFour0: 1542926899
+      SpecialBulletLevelFour1: -1704695912
+      SpecialBulletLevelFour2: -606546436
+      SpecialBulletLevelFourAttack0: 2002741556
+      SpecialBulletLevelFourAttack1: -1802754220
+      SpecialBulletLevelFourAttack2: 560772531
+      SpecialBulletLevelFourAttack3: -810902832
+      SpecialBulletLevelFourAttackEffect0: 2136846818
+      SpecialBulletLevelFourAttackEffect1: 1207358561
+      SpecialBulletLevelFourAttackEffect2: -61637991
+      SpecialBulletLevelFourAttackEffect3: 534292783
+      SpecialBulletLevelFourAttackEffect4: 368626720
+      SpecialBulletLevelFourAttackEffect5: 1180115969
+      SpecialBulletLevelFourAttackEffect6: -293629343
+      SpecialBulletLevelFourDie0: 1427126336
+      SpecialBulletLevelFourDie1: 138662080
+      SpecialBulletLevelFourDie2: -1368970794
+      SpecialBulletLevelFourDie3: -182470916
+      SpecialBulletLevelFourDie4: 953350506
+      SpecialBulletLevelFourDie5: -1439282210
+      SpecialBulletLevelFourDie6: 414478970
+      SpecialBulletLevelOne0: 1142790185
+      SpecialBulletLevelOne1: -1364449322
+      SpecialBulletLevelOne2: 717072004
+      SpecialBulletLevelOneDie0: 597960229
+      SpecialBulletLevelOneDie2: 1078967992
+      SpecialBulletLevelOneDie3: -1720986781
+      SpecialBulletLevelOneDie4: 1992715742
+      SpecialBulletLevelOneDie5: 308098513
+      SpecialBulletLevelOneDie6: -1913181872
+      SpecialBulletLevelOneDie7: 325329667
+      SpecialBulletLevelThree0: 522203947
+      SpecialBulletLevelThree1: -734629659
+      SpecialBulletLevelThree2: -1343496733
+      SpecialBulletLevelThree3: -2082386382
+      SpecialBulletLevelThree4: 1310913759
+      SpecialBulletLevelThree5: -606951212
+      SpecialBulletLevelThree6: 1469439728
+      SpecialBulletLevelThree7: -48249960
+      SpecialBulletLevelTwo0: -1071500485
+      SpecialBulletLevelTwo1: 1393495244
+      SpecialBulletLevelTwo2: 257688038
+      SpecialBulletLevelTwoDie0: -1200127560
+      SpecialBulletLevelTwoDie1: 1282186672
+      SpecialBulletLevelTwoDie2: -216963946
+      SpecialBulletLevelTwoDie3: 1783016470
+      SpecialBulletLevelTwoDie4: 1340368646
+      SpecialBulletLevelTwoDie5: -610165054
+      SpecialBulletLevelTwoDie6: -787748536
+      SpecialBulletLevelTwoDie7: -832028008
+      SubBullet0: -1558425916
+      SubBullet1: -879992672
+      SubBullet2: -377353334
+      SubBullet3: 463507774
+      SubBullet4: 1747219043
+      SubBullet5: 1932552079
+      SubBullet6: 103250570
+      SubBullet7: -892274802
+      SubWeapon0: -522897038
+      SubWeapon1: -1651556546
+      SubWeapon2: 1608258286
+      SubWeapon3: 346978539
+      SubWeapon4: 1434017828
+      SubWeapon5: 154446122
+      SubWeapon6: -561565444
+      SubWeapon7: 1557403050
+      UseSpecialWeapon0: 687165021
+      UseSpecialWeapon1: -1751691918
+      UseSpecialWeapon2: 513950160
+      UseSpecialWeapon3: -591032325
+      UseSpecialWeapon4: -1202005281
+      UseSpecialWeapon5: -214606233
+      UseSpecialWeapon6: -483900
+      UseSpecialWeapon7: 1155709593
+      UseSpecialWeapon8: 1537065604
+      UseSpecialWeapon9: 1039942061
+      miko_10: -610165054
+      miko_2: -1161449358
+      miko_3: -687727949
+      miko_9: -1028280680
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
