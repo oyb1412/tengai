@@ -168,7 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletType: 4
   speed: 2
-  damage: 5
+  damage: 4
   bulletEffect: {fileID: 2557585367202363199, guid: 3f8417e4246862c498522488bdc270a8, type: 3}
   bulletHitCount: 10
   targetTrans: {fileID: 0}

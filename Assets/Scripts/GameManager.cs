@@ -16,27 +16,27 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isLive = false;
+        isLive = true;
         Instance = this;
+        AudioManager.instance.PlayerBgm(true);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!isLive)
+        scoreText.text = "1P : " + player.score;
+
+        if (player.currentHP == 0)
         {
-            player.transform.Translate(10f * Time.deltaTime, 0f, 0f);
-            if(player.transform.position.x >= -6f)
-                isLive = true;
+            hpCountObject[0].SetActive(false);
+            AudioManager.instance.PlayerBgm(false);
+
+            isLive = false;
         }
-
-        scoreText.text = "1P :    " + player.score;
-
-        if(player.currentHP == 0)
-            hpCountObject[0].SetActive(false);       
-        else if(player.currentHP == 1)
-            hpCountObject[1].SetActive(false);    
-        else if(player.currentHP == 2)
+        else if (player.currentHP == 1)
+            hpCountObject[1].SetActive(false);
+        else if (player.currentHP == 2)
             hpCountObject[2].SetActive(false);
 
         if (player.ultCount == 0)

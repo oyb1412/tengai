@@ -17,6 +17,11 @@ public class FactoryManager : MonoBehaviour
         factory.SpawnBG(obj,parent,pos);
     }
 
+    public Enemy CreateEnemy(GameObject obj, Vector3 pos)
+    {
+        return factory.SpawnEnemy(obj, parent, pos);
+    }
+
     public Bullet CreateBullet(GameObject obj, Vector3 pos)
     {
         return factory.SpawnBullet(obj, parent, pos);

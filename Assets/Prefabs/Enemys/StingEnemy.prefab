@@ -144,7 +144,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -172,12 +172,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad8fa99c3ffcb348b708ae41ccbf611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyType: 3
+  enemyType: 1
   currentHP: 0
-  maxHP: 5
+  maxHP: 10
   dieEffect: {fileID: 7353644674975499344, guid: b8808af78fea4a14498343fad0498fa2, type: 3}
-  dropItem: {fileID: 4501128350044490013, guid: dcd47fd568a473d4b96b4ff77a59cbef, type: 3}
-  speed: 0
+  dropItem: {fileID: 0}
+  bulletPrefabs: {fileID: 0}
+  speed: 6
 --- !u!95 &6651234080763056083
 Animator:
   serializedVersion: 5

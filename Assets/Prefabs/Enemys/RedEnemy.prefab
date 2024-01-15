@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1039711320832069222}
   - component: {fileID: 5154733041997660719}
   - component: {fileID: 7525297906687713030}
-  - component: {fileID: 4632839158141102263}
   - component: {fileID: 3688225815669143578}
   - component: {fileID: 253727164540533716}
   m_Layer: 0
@@ -117,7 +116,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -133,33 +132,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.46, y: 0.35}
   m_EdgeRadius: 0
---- !u!50 &4632839158141102263
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3138161783217710033}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!95 &3688225815669143578
 Animator:
   serializedVersion: 5
@@ -170,7 +142,7 @@ Animator:
   m_GameObject: {fileID: 3138161783217710033}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6260f48538c5522418dd0480f218a7f6, type: 2}
+  m_Controller: {fileID: 22100000, guid: d95d3bc977f42ee43ad9183717e3d068, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -193,9 +165,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad8fa99c3ffcb348b708ae41ccbf611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyType: 1
+  enemyType: 3
   currentHP: 0
-  maxHP: 10
+  maxHP: 16
   dieEffect: {fileID: 7353644674975499344, guid: b8808af78fea4a14498343fad0498fa2, type: 3}
   dropItem: {fileID: 1012513438672773759, guid: d3cc0190f5d2d52478926dcd862ac972, type: 3}
-  speed: 0
+  bulletPrefabs: {fileID: 780904213468131146, guid: ee82a099e2cc6ae4d8753bc4156c5e47, type: 3}
+  speed: 2

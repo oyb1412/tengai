@@ -18,6 +18,13 @@ public class ObjectFactory : Factory<GameObject>
         return unit;
     }
 
+    public override Enemy CreateEnemy(GameObject type)
+    {
+        Enemy unit;
+        unit = Instantiate(type).GetComponent<Enemy>();
+        return unit;
+    }
+
     public override Item CreateItem(GameObject type)
     {
         Item unit;

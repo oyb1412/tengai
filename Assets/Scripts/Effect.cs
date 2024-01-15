@@ -23,6 +23,9 @@ public class Effect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!GameManager.Instance.isLive)
+            return;
+
         deleteTimer += Time.deltaTime;
         if(deleteTimer > 0.4f && effectType == effect.NORMAL_EFFECT)
             Destroy(gameObject);
@@ -65,7 +68,8 @@ public class Effect : MonoBehaviour
     {
         if (effectType == effect.ULT_EFFECT)
         {
-            //Àû ºÒ·¿ Á¦°Å
+           if(collision.CompareTag("EnemyBullet"))
+                Destroy(collision.gameObject);  
         }
     }
     private void OnTriggerStay2D(Collider2D collision)

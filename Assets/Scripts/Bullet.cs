@@ -18,10 +18,13 @@ public class Bullet : MonoBehaviour
     bool isLive;
     Rigidbody2D rigid;
     Vector2 currentPos;
+    Vector2 targetDir;
+
     public Transform targetTrans;
     Animator anime;
     Vector3 pos;
     Enemy target;
+    bool bulletTrigger;
     private void Start()
     {
         anime = GetComponent<Animator>();
@@ -33,14 +36,15 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > 10f)
+        if (transform.position.x > 9.35f)
             Destroy(gameObject);
 
     }
     private void FixedUpdate()
     {
-        if (!isLive)
+        if (!GameManager.Instance.isLive || !isLive)
             return;
+
 
         switch (bulletType)
         {
@@ -68,8 +72,23 @@ public class Bullet : MonoBehaviour
                         targetTrans = GameManager.Instance.GetLowHPTarget(enemys);
                     }
                     Vector2 targetPos = (targetTrans.position - transform.position).normalized;
-                    rigid.MovePosition(rigid.position + targetPos * speed * Time.fixedDeltaTime);
+                    if (targetTrans.position.x >= GameManager.Instance.player.transform.position.x)
+                    {
+                        rigid.MovePosition(rigid.position + targetPos * speed * Time.fixedDeltaTime);
+                    }
+                    else
+                        transform.Translate(speed * Time.fixedDeltaTime, 0f, 0f);
+
+
                 }
+                break;
+            case bullet.ENEMY_BULLET:
+                if (!bulletTrigger)
+                {
+                    targetDir = (GameManager.Instance.player.transform.position - transform.position).normalized;
+                    bulletTrigger = true;
+                }
+                    rigid.MovePosition(rigid.position + targetDir * speed * Time.fixedDeltaTime);
                 break;
             case bullet.ULT_BULLET:
                 ultBulletTimer += Time.deltaTime;
@@ -108,6 +127,7 @@ public class Bullet : MonoBehaviour
             case bullet.SUBWEAPONNORMAL_BULLET:
                 FactoryManager.instance.CreateEffect(bulletEffect, pos);
                 target.currentHP -= damage;
+                AudioManager.instance.PlayerSfx(AudioManager.Sfx.HIT);
                 Destroy(gameObject);
                 break;
 
@@ -117,6 +137,8 @@ public class Bullet : MonoBehaviour
                 {
                     isLive = false;
                     target.currentHP -= damage;
+                    AudioManager.instance.PlayerSfx(AudioManager.Sfx.HIT);
+
                     FactoryManager.instance.CreateEffect(bulletEffect, pos);
                     StartCoroutine(BulletDestroyEffectPlay());
                 }
@@ -141,6 +163,8 @@ public class Bullet : MonoBehaviour
                         hitTimer = 0;
                         target.currentHP -= damage;
                         anime.Play("Hit");
+                        AudioManager.instance.PlayerSfx(AudioManager.Sfx.HIT);
+
                         FactoryManager.instance.CreateEffect(bulletEffect, pos);
                         bulletHitCount--;
                     }

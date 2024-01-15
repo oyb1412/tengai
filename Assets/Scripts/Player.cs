@@ -26,11 +26,9 @@ public class Player : MonoBehaviour
     bool subweaponCreateTrigger;
     public bool normalBulletFireTrigger;
     public bool subweaponulletFireTrigger;
-    bool isLive;
     // Start is called before the first frame update
     void Start()
     {
-        isLive = true;
         normalBulletFireTrigger = true;
         subweaponulletFireTrigger = true;
         currentHP = maxHP;
@@ -41,7 +39,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!GameManager.Instance.isLive || !isLive)
+        if (!GameManager.Instance.isLive)
             return;
 
         moveDir.x = Input.GetAxisRaw("Horizontal");
@@ -63,7 +61,6 @@ public class Player : MonoBehaviour
         else if(moveDir.x < 0)
         {
             OnAnimation("BackIdle");
-            PlayerDieAnimation();
         }
         else
         {
@@ -78,8 +75,10 @@ public class Player : MonoBehaviour
             sub.animator.Play("Create");
         }
 
-        if(Input.GetKeyDown(KeyCode.E) && ultCount > 0)
+        if(Input.GetKeyUp(KeyCode.Q) && ultCount > 0)
         {
+            AudioManager.instance.PlayerSfx(AudioManager.Sfx.ULT);
+
             FactoryManager.instance.CreateBullet(ultBulletPrefab, transform.position);
             ultCount--;
         }
@@ -102,7 +101,6 @@ public class Player : MonoBehaviour
     {
         if(collision.CompareTag("Enemy"))
         {
-            //ªÁ∏¡ø¨√‚
             SetHP(-1);
         }
         else if(collision.CompareTag("Item"))
@@ -112,6 +110,7 @@ public class Player : MonoBehaviour
             {
                 case Item.item.COIN:
                     FactoryManager.instance.CreateEffect(scoreUpEffectPrefab, transform.position);
+                    AudioManager.instance.PlayerSfx(AudioManager.Sfx.COIN);
 
                     score += 500;
                     break;
@@ -119,6 +118,8 @@ public class Player : MonoBehaviour
                     if (level < 4)
                     {
                         FactoryManager.instance.CreateEffect(powerUpEffectPrefab, transform.position);
+                        AudioManager.instance.PlayerSfx(AudioManager.Sfx.POWER_UP);
+
                         level++;
                     }
                     else
@@ -144,17 +145,13 @@ public class Player : MonoBehaviour
         }
         else if(collision.CompareTag("EnemyBullet"))
         {
-            //ªÁ∏¡ø¨√‚
+            Destroy(collision.gameObject);
+            animator.Play("Hit");
             SetHP(-1);
         }
     }
 
-    void PlayerDieAnimation()
-    {
-        //isLive = false;
-        //rb.AddForce(new Vector3(0f, 5f));
-        //rb.gravityScale = 1f;
-    }
+
 
     public void SetHP(int hp)
     {

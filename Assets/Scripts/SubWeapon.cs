@@ -54,15 +54,14 @@ public class SubWeapon : MonoBehaviour
             player.subweaponBulletFireTimer = 0;
         }
 
-        if(Input.GetKey(KeyCode.Q) && chargeTimer < 1f)
+        if(Input.GetKey(KeyCode.E) && chargeTimer < 1f)
         {
-
             OnAnimation("Charge");
             chargeTimer += Time.deltaTime;
             player.normalBulletFireTrigger = false;
             player.subweaponulletFireTrigger = false;
         }
-        if (Input.GetKeyUp(KeyCode.Q))
+        if (Input.GetKeyUp(KeyCode.E))
         {
             OnAnimation("Idle");
             chargeTimer = 0;

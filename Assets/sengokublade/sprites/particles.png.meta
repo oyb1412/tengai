@@ -702,6 +702,111 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: BossBullet1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 63
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaec73c98a8b0e46924feee08c75f48
+      internalID: 1577827884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossBullet2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de00e7d3f195e044bec19fd562a4049
+      internalID: -1252691105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossBullet3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 61
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9735d85e856d9c94eae2078140151846
+      internalID: 1593284623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossBullet4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 61
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744b4c6bd5d4ca14abb6f8150a47f24e
+      internalID: -2051284988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossBullet5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dcff2f01520f848aab5047aece543b
+      internalID: 1305679137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -713,6 +818,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      BossBullet1: 1577827884
+      BossBullet2: -1252691105
+      BossBullet3: 1593284623
+      BossBullet4: -2051284988
+      BossBullet5: 1305679137
       BulletEffect1: 97866404
       BulletEffect2: -1242939326
       BulletEffect3: -1082824555

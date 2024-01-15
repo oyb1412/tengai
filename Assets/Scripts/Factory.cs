@@ -4,7 +4,13 @@ using UnityEngine;
 
 public abstract class Factory<T> : MonoBehaviour
 {
-
+    public Enemy SpawnEnemy(T type, Transform parent, Vector3 pos)
+    {
+        Enemy unit = CreateEnemy(type);
+        unit.transform.SetParent(parent);
+        unit.transform.position = pos;
+        return unit;
+    }
     public BGMovement SpawnBG(T type, Transform parent, Vector3 pos)
     {
         BGMovement unit = CreateBG(type);
@@ -39,6 +45,8 @@ public abstract class Factory<T> : MonoBehaviour
 
     public abstract BGMovement CreateBG(T type);
     public abstract Item CreateItem(T type);
+    public abstract Enemy CreateEnemy(T type);
+
 
     public abstract Bullet CreateBullet(T type);
 

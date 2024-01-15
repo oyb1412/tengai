@@ -10,6 +10,9 @@ public class BGMovement : MonoBehaviour
     bool trigger;
     void Update()
     {
+        if (!GameManager.Instance.isLive)
+            return;
+
         if (gameObject.name == "12(Clone)" && transform.position.x <= -7f)
         {
             transform.Translate(-1f * Time.deltaTime, 0f, 0f);
@@ -28,7 +31,6 @@ public class BGMovement : MonoBehaviour
             FactoryManager.instance.CreateBG(bg, new Vector3(17.3f, -5f, 1f));
             trigger = true;
             bgCount++;
-     
         }
         if (transform.position.x < -26f && gameObject.name != "12(Clone)")
         {
@@ -37,31 +39,6 @@ public class BGMovement : MonoBehaviour
         if (transform.position.x < -30f && gameObject.name == "12(Clone)")
         {
             Destroy(gameObject);
-        }
-
-        if (gameObject.name == "8(Clone)" && transform.position.x < -2f)
-        {
-            fadeCount += Time.deltaTime;
-            var spriter = GetComponentsInChildren<SpriteRenderer>()[2];
-            spriter.color = new Color(1f, 1f, 1f, fadeCount * 0.2f);
-        }
-        if (gameObject.name == "9(Clone)")
-        {
-            fadeCount += Time.deltaTime;
-            var spriter = GetComponentsInChildren<SpriteRenderer>()[2];
-            spriter.color = new Color(1f, 1f, 1f, fadeCount * 0.2f);
-        }
-        if (gameObject.name == "10(Clone)" && transform.position.x < -3f)
-        {
-            fadeCount -= Time.deltaTime;
-            var spriter = GetComponentsInChildren<SpriteRenderer>()[0];
-            spriter.color = new Color(1f, 1f, 1f, 1 + +fadeCount * 0.2f);
-        }
-        if (gameObject.name == "11(Clone)" )
-        {
-            fadeCount -= Time.deltaTime;
-            var spriter = GetComponentsInChildren<SpriteRenderer>()[0];
-            spriter.color = new Color(1f, 1f, 1f, 1 +fadeCount * 0.2f);
         }
     }
 }
