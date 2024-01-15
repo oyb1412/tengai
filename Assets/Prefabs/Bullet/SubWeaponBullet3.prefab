@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 522203947, guid: ff8d6d34775aea6418b737e51d754dff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 7061151243515744128}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: ae2399e51a6766f4cbd1150ab71c8141, type: 2}
+  m_Controller: {fileID: 9100000, guid: 24229f9f58e11b94fa86f1cc528280d7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -167,8 +167,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletType: 3
-  speed: 4
+  speed: 2
+  damage: 3
   bulletEffect: {fileID: 5962178515671612335, guid: 6f465b7bf4aa4634c9811bd8721c7523, type: 3}
+  bulletHitCount: 10
+  targetTrans: {fileID: 0}
 --- !u!50 &-7890689892056133774
 Rigidbody2D:
   serializedVersion: 4

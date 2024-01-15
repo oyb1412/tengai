@@ -27,6 +27,8 @@ public class SubWeapon : MonoBehaviour
         {
             var posUp = new Vector3(transform.position.x - 0.3f, transform.position.y + 0.5f, transform.position.z);
             var posDown = new Vector3(transform.position.x-0.3f, transform.position.y - 0.5f, transform.position.z);
+            var posBack = new Vector3(transform.position.x - 0.3f, transform.position.y, transform.position.z);
+
             switch (player.level)
             {
 
@@ -38,16 +40,21 @@ public class SubWeapon : MonoBehaviour
                     FactoryManager.instance.CreateBullet(subweaponNormalBulletPrefabs, posDown);
                     break;
                 case 3:
+                    FactoryManager.instance.CreateBullet(subweaponNormalBulletPrefabs, posUp);
+                    FactoryManager.instance.CreateBullet(subweaponNormalBulletPrefabs, transform.position);
+                    FactoryManager.instance.CreateBullet(subweaponNormalBulletPrefabs, posDown);
+                    break;
                 case 4:
                     FactoryManager.instance.CreateBullet(subweaponNormalBulletPrefabs, posUp);
                     FactoryManager.instance.CreateBullet(subweaponNormalBulletPrefabs, transform.position);
+                    FactoryManager.instance.CreateBullet(subweaponNormalBulletPrefabs, posBack);
                     FactoryManager.instance.CreateBullet(subweaponNormalBulletPrefabs, posDown);
                     break;
             }
             player.subweaponBulletFireTimer = 0;
         }
 
-        if(Input.GetKey(KeyCode.E) && chargeTimer < 1f)
+        if(Input.GetKey(KeyCode.Q) && chargeTimer < 1f)
         {
 
             OnAnimation("Charge");
@@ -55,7 +62,7 @@ public class SubWeapon : MonoBehaviour
             player.normalBulletFireTrigger = false;
             player.subweaponulletFireTrigger = false;
         }
-        if (Input.GetKeyUp(KeyCode.E))
+        if (Input.GetKeyUp(KeyCode.Q))
         {
             OnAnimation("Idle");
             chargeTimer = 0;

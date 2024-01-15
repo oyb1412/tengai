@@ -29,7 +29,17 @@ public abstract class Factory<T> : MonoBehaviour
         return unit;
     }
 
+    public Item SpawnItem(T type, Transform parent, Vector3 pos)
+    {
+        Item unit = CreateItem(type);
+        unit.transform.SetParent(parent);
+        unit.transform.position = pos;
+        return unit;
+    }
+
     public abstract BGMovement CreateBG(T type);
+    public abstract Item CreateItem(T type);
+
     public abstract Bullet CreateBullet(T type);
 
     public abstract Effect CreateEffect(T type);

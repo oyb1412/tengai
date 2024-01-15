@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Bullet
   - Enemy
+  - Item
+  - LeftWall
+  - RightWall
+  - UpWall
+  - DownWall
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX

@@ -194,9 +194,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 205fb0ede78c4ed429bbfc207b4e3415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Level: 0
+  level: 0
+  ultCount: 0
   speed: 5
-  normalBulletPrefabs: {fileID: 8364733983325755268, guid: 08c786d53d8eb614eb0ccd77012119d9, type: 3}
+  currentHP: 0
+  maxHP: 0
+  score: 0
+  normalBulletPrefab: {fileID: 8364733983325755268, guid: 08c786d53d8eb614eb0ccd77012119d9, type: 3}
+  ultBulletPrefab: {fileID: 299372021286789984, guid: cb9d0360468ce124c9977dd9baff2d9a, type: 3}
+  powerUpEffectPrefab: {fileID: 715074077545744988, guid: 62e6df44265d9604ea5d145dcad10e74, type: 3}
+  scoreUpEffectPrefab: {fileID: 701388838382484608, guid: d966db2e69f0ebd44a986d45a6141a1e, type: 3}
   normalBulletImage:
   - {fileID: 634710494, guid: ff8d6d34775aea6418b737e51d754dff, type: 3}
   - {fileID: -751192091, guid: ff8d6d34775aea6418b737e51d754dff, type: 3}
@@ -213,6 +220,9 @@ MonoBehaviour:
   - {fileID: 1879852800, guid: ff8d6d34775aea6418b737e51d754dff, type: 3}
   - {fileID: -1221661919, guid: ff8d6d34775aea6418b737e51d754dff, type: 3}
   - {fileID: 837244489, guid: ff8d6d34775aea6418b737e51d754dff, type: 3}
+  subweaponBulletFireTimer: 0
+  normalBulletFireTrigger: 0
+  subweaponulletFireTrigger: 0
 --- !u!1 &9213613140726381847
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,3 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fdfb209922e7504aa72316aa3569c8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  animator: {fileID: 0}
+  subweaponBulletPrefabs: []
+  subweaponNormalBulletPrefabs: {fileID: 0}

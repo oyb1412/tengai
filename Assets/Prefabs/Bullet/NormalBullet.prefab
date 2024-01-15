@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 634710494, guid: ff8d6d34775aea6418b737e51d754dff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -101,7 +101,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletType: 0
   speed: 20
+  damage: 1
   bulletEffect: {fileID: 5962178515671612335, guid: 6f465b7bf4aa4634c9811bd8721c7523, type: 3}
+  bulletHitCount: 0
+  targetTrans: {fileID: 0}
 --- !u!61 &7094534728908560726
 BoxCollider2D:
   m_ObjectHideFlags: 0

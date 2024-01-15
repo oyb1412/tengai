@@ -76,8 +76,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 1279229937, guid: f353ed47c75aa694aaaa1563cbec8c4e, type: 3}
+  m_SortingOrder: 4
+  m_Sprite: {fileID: -1953123153, guid: f353ed47c75aa694aaaa1563cbec8c4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -168,7 +168,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyType: 0
   currentHP: 0
-  maxHP: 0
+  maxHP: 5
+  dieEffect: {fileID: 7353644674975499344, guid: b8808af78fea4a14498343fad0498fa2, type: 3}
+  dropItem: {fileID: 4501128350044490013, guid: dcd47fd568a473d4b96b4ff77a59cbef, type: 3}
   speed: 0
 --- !u!50 &-7466956276475100303
 Rigidbody2D:

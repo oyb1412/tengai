@@ -136,15 +136,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GreenEnemy1
+      name: StingEnemy5
       rect:
         serializedVersion: 2
-        x: 6
-        y: 460
-        width: 46
-        height: 43
+        x: 182
+        y: 432
+        width: 32
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -165,7 +165,7 @@ TextureImporter:
         width: 46
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,7 +186,7 @@ TextureImporter:
         width: 46
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,7 +207,7 @@ TextureImporter:
         width: 46
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,6 +215,1602 @@ TextureImporter:
       bones: []
       spriteID: c846031b8285a4547b42c95a85461d59
       internalID: 2042239535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedEnemy1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 463
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c296301256dc44a86b6d6404de7b3b
+      internalID: 1300599708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedEnemy2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 463
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fadfbeb90750940ad6fb88d1fbb7a7
+      internalID: 993055376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedEnemy3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 463
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dff0ad4e279c04c9605077f7818cf7
+      internalID: -1319712898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedEnemy4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 463
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8b6556718a0874dab80c1fcca5d50e
+      internalID: 1662341369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 363
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ee0e1f83793294680d51650bd8bbcc
+      internalID: -1638253144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp2
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 363
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89b0ba9f8a3b474ebebb1d6ba098e32
+      internalID: -890390528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp3
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 363
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d322a3ef55e1aa4cb32de2eba193b71
+      internalID: 1394281644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 363
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c517ea663df764458f031c92f02068b
+      internalID: 1454910720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 363
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a443981d2110204f90c03a59f918cab
+      internalID: 1820125707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp6
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 343
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1805b1c4f5572f44889dafcd02237423
+      internalID: 1593666074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp7
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 343
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafaef3743e5eb1468e0b2bd2420eeee
+      internalID: 1879736593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp8
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 343
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74df15db54c051f48a0923c33b1797f1
+      internalID: -272585947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 343
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbed6ffc4e1c2a4b9977b73fd25f5a4
+      internalID: 629371980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp10
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 343
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c340d1b24b17dc4e979848cec3fc139
+      internalID: -1856646142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp11
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 322
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea249574292eae44852011aba2e45e8
+      internalID: -955960919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp12
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 322
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd03a2512c961bc48af469a1b399d157
+      internalID: -52354842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 322
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad9a50ac4909d740a7773d6da13094d
+      internalID: 505710101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 322
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7df659340ea6e40a942f61bd0adf55
+      internalID: 1257456927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp15
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 322
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8812782cdffa2204c89e3dc82ac4059f
+      internalID: 317717851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp16
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 301
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3048e19980402774687b850ae76da8d1
+      internalID: 1522223455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ult1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 69
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3d3b2301004c140867bbc67730a29f
+      internalID: 1521455175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ult2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 69
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dac5afd2cc464d45b8a0b7f587fdf70
+      internalID: 1895438080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ult3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 69
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e082500b47c3a4aae5f5c156c01fa7
+      internalID: 1462346743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ult4
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 69
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d245a301554d6e047b4497eb7c33ea41
+      internalID: 1760235736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ult5
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 43
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5d3a6f05a67b349b2817468c5e59ca
+      internalID: -1812558880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ult6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 42
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca309bb0a1a0df34f9acfe3dab640479
+      internalID: -1641549561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ult7
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 42
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924c14a3a9678e44db4005184e3c4ac0
+      internalID: 608974338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ult8
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 42
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7d62bb1f7f5bb4d989d771d74f6813
+      internalID: 1907956127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ult9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 42
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47683ca95bab1d64eaa3cebe012add8a
+      internalID: -74842361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ult10
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 18
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d11d27728ffe7c47ac3b45cf0b10cf2
+      internalID: -1919612672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaee0609682b7a4aad6203093b8db47
+      internalID: -1648973524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2499847f07c3447861e63abfcc6051
+      internalID: -1359030166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e97f05fab2226746a18e5e9bc833162
+      internalID: 1491939813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dcb360da2b2d5419442519a06cdeb0
+      internalID: -648831348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5407837b616311646adce23f4f657562
+      internalID: -1666312227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd6c43af7e724744a8486d3144a01e7
+      internalID: -1169054530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5dfbdf35367d84f946b72a43806037
+      internalID: 149665797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be91e423d14c2ed41a10ccb0ac14fb84
+      internalID: 1980990501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc764ffb5cc9ce47ac1416a688442a0
+      internalID: -1947479882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7c510f58c41974d9b880613da80c2a
+      internalID: -1484343611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0af95e5c0cf754d864e0bdf40d0007
+      internalID: -1573383761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin12
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb0576b1fe6b5749a2d1ca725a235aa
+      internalID: -1531967462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin13
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6838c8f5d9d48045928af6db2281bd0
+      internalID: 1204130372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin14
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d654f8b7179424e4694db6d06d458941
+      internalID: -780912160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin15
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4405620ff7f1d8745bf740030239053e
+      internalID: 575533906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin16
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c83d43d270218f4c951c433da5b67e1
+      internalID: -1582198248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StingEnemy1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 441
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782d4a8136ed450489f23a0988003250
+      internalID: 1817549768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StingEnemy2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 442
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fc89f3d146e7c46b2bea6c863a79f8
+      internalID: -1932041316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StingEnemy3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 441
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0825287e4223f489188ada047bce7b
+      internalID: 1697791713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StingEnemy4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 437
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991fd4171104d1749accfa31725589fd
+      internalID: -2055232850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StingEnemy6
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 437
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8229d67d1241ba41878bf51ddf22647
+      internalID: -1227858510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StingEnemy7
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 442
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b3990534e67e1488aa4fcc03d0ee47
+      internalID: -1977896106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StingEnemy8
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 442
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adf7f5f55a6bc44395ff6d425b5a7bc
+      internalID: 1676336752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenEnemy1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 460
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2134744ede43c24b8199b262115c365
+      internalID: -1953123153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaEnemyFront1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 401
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758096f81df9ff6419bf8751959b6cc9
+      internalID: 1674845150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaEnemyFront2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 401
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2b86c56597a4648a962e78254e373b
+      internalID: 1669958222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaEnemyFront3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1561b01412af9f42b7654303ad9459b
+      internalID: -1346338950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaEnemyBack1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 397
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935c89c4a752ba04992580ddfb2c15f4
+      internalID: -1652068675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaEnemyBack2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 397
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb085de00029f34387eaddac6e0957e
+      internalID: -489451295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaEnemyBack3
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 395
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3274395afdc73ab4e80e6f9bb4a27431
+      internalID: -1728332299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaEnemyBack4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 396
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60d7d625c5412c49bca309d1e34acee
+      internalID: 1508722506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaEnemyBack5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 396
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3264e65ed5fbad24492d100b265630b7
+      internalID: 907870572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaEnemyBack6
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 396
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64f4705e9a2b2f47abff9af93d2d672
+      internalID: -1945204266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyIdle1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 265
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e897c5c35e7e74c4f836816ae0448f90
+      internalID: -787644586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyIdle2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 266
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c1b84c709fdae46897599331c0626b
+      internalID: 1952173990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyIdle3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 265
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca996226e4f41774eb27849c92f3ab84
+      internalID: 1587086413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyAttack1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 266
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd5547e43112054fb5c8e4fdd812729
+      internalID: 250476410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyAttack2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 266
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e0ee5db11f75a41be258330529c541
+      internalID: -1412121723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyAttack3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 265
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaeec64f828e7e47908547265e2125b
+      internalID: 1693280179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyAttack4
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 267
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a10d33dec09c547b6822fe3f6525f5
+      internalID: 2127013496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyAttack10
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 207
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3eaafee1093fe449b16cb57be31a27
+      internalID: -635264363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyAttack9
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 207
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50e58c9c12ead54ebd21e010864c23c
+      internalID: 2099561334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyAttack8
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 207
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfde0de109410f648bd53478ebb5fdbb
+      internalID: -1512045535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyAttack7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 206
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796f6165f5ad456438b5ca2f0e2bd4a7
+      internalID: -84344997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyAttack6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 204
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12bc11721dfe9541a46cd09a8398318
+      internalID: 1529856235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YoroiEnemyAttack5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 204
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2af4d11e74e69468465ea93f048e0d
+      internalID: 981997827
       vertices: []
       indices: 
       edges: []
@@ -230,10 +1826,86 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GreenEnemy1: 1279229937
+      Coin1: -1648973524
+      Coin10: -1484343611
+      Coin11: -1573383761
+      Coin12: -1531967462
+      Coin13: 1204130372
+      Coin14: -780912160
+      Coin15: 575533906
+      Coin16: -1582198248
+      Coin2: -1359030166
+      Coin3: 1491939813
+      Coin4: -648831348
+      Coin5: -1666312227
+      Coin6: -1169054530
+      Coin7: 149665797
+      Coin8: 1980990501
+      Coin9: -1947479882
+      GreenEnemy1: -1953123153
       GreenEnemy2: 1558479637
       GreenEnemy3: -972477729
       GreenEnemy4: 2042239535
+      KaEnemyBack1: -1652068675
+      KaEnemyBack2: -489451295
+      KaEnemyBack3: -1728332299
+      KaEnemyBack4: 1508722506
+      KaEnemyBack5: 907870572
+      KaEnemyBack6: -1945204266
+      KaEnemyFront1: 1674845150
+      KaEnemyFront2: 1669958222
+      KaEnemyFront3: -1346338950
+      PowerUp1: -1638253144
+      PowerUp10: -1856646142
+      PowerUp11: -955960919
+      PowerUp12: -52354842
+      PowerUp13: 505710101
+      PowerUp14: 1257456927
+      PowerUp15: 317717851
+      PowerUp16: 1522223455
+      PowerUp2: -890390528
+      PowerUp3: 1394281644
+      PowerUp4: 1454910720
+      PowerUp5: 1820125707
+      PowerUp6: 1593666074
+      PowerUp7: 1879736593
+      PowerUp8: -272585947
+      PowerUp9: 629371980
+      RedEnemy1: 1300599708
+      RedEnemy2: 993055376
+      RedEnemy3: -1319712898
+      RedEnemy4: 1662341369
+      StingEnemy1: 1817549768
+      StingEnemy2: -1932041316
+      StingEnemy3: 1697791713
+      StingEnemy4: -2055232850
+      StingEnemy5: 1279229937
+      StingEnemy6: -1227858510
+      StingEnemy7: -1977896106
+      StingEnemy8: 1676336752
+      Ult1: 1521455175
+      Ult10: -1919612672
+      Ult2: 1895438080
+      Ult3: 1462346743
+      Ult4: 1760235736
+      Ult5: -1812558880
+      Ult6: -1641549561
+      Ult7: 608974338
+      Ult8: 1907956127
+      Ult9: -74842361
+      YoroiEnemyAttack1: 250476410
+      YoroiEnemyAttack10: -635264363
+      YoroiEnemyAttack2: -1412121723
+      YoroiEnemyAttack3: 1693280179
+      YoroiEnemyAttack4: 2127013496
+      YoroiEnemyAttack5: 981997827
+      YoroiEnemyAttack6: 1529856235
+      YoroiEnemyAttack7: -84344997
+      YoroiEnemyAttack8: -1512045535
+      YoroiEnemyAttack9: 2099561334
+      YoroiEnemyIdle1: -787644586
+      YoroiEnemyIdle2: 1952173990
+      YoroiEnemyIdle3: 1587086413
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 97866404, guid: 691999e04039a664b9d2137e8373ae3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -119,3 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b35eff4dd585d438b52aac8aa1342b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effectType: 0
+  mojiImage: []
+  mojiObject: {fileID: 0}
+  hitEffectPrefabs: {fileID: 0}
+  damage: 0

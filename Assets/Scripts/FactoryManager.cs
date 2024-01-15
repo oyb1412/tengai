@@ -22,6 +22,11 @@ public class FactoryManager : MonoBehaviour
         return factory.SpawnBullet(obj, parent, pos);
     }
 
+    public Item CreateItem(GameObject obj, Vector3 pos)
+    {
+        return factory.SpawnItem(obj, parent, pos);
+    }
+
     public Effect CreateEffect(GameObject obj, Vector3 pos)
     {
         return factory.SpawnEffect(obj, parent, pos);
